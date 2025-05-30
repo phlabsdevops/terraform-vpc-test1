@@ -5,10 +5,10 @@ module "roboshop" {
   common_tags = var.common_tags
   vpc_tags = var.vpc_tags
 
-  # public subnet
+  # public subnet cidr
   public_subnets_cidr = var.public_subnets_cidr
 
-  # private subnet
+  # private subnet cidr
   private_subnets_cidr = var.private_subnets_cidr
 
 }
